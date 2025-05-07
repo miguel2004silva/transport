@@ -1,44 +1,52 @@
-# 🚚 Transport
+# Transport
 
-Sistema simples de rastreamento de transportes, desenvolvido com foco em boas práticas usando Laravel, PHP e MySQL. O projeto inclui autenticação administrativa, integração com APIs externas e validação robusta de dados.
+Sistema de rastreamento de transportes desenvolvido com Laravel. O projeto permite o cadastro de pedidos com código de rastreio e consulta automática de status via integração com uma API externa, além de um painel administrativo com autenticação.
 
-## ⚙️ Tecnologias utilizadas
+## 🔧 Tecnologias utilizadas
 
-- PHP 8.x
-- Laravel 10
-- MySQL
-- Blade (Laravel Views)
-- Bootstrap (interface básica)
-- API de rastreio de transportadoras
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" alt="Laravel" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
+</div>
 
-## 🧠 Funcionalidades
+- **PHP 8.x**
+- **Laravel 10**
+- **MySQL**
+- **Blade**
+- **Bootstrap**
+- **Git**
 
-- Autenticação de usuário (painel administrativo)
+## 📌 Funcionalidades
+
+- Autenticação de administrador
 - Cadastro de pedidos com código de rastreio
-- Consulta automática dos dados via integração com API externa
-- Validação de campos com mensagens de erro personalizadas
-- Interface simples e funcional para gerenciamento
+- Consulta de status via integração com API
+- Validação de dados no backend
+- Interface simples e funcional
 
-## 🛠️ Como rodar o projeto
+## ▶️ Como executar
 
 ```bash
 # Clone o repositório
 git clone https://github.com/miguel2004silva/transport.git
 
-# Acesse o diretório
+# Acesse a pasta do projeto
 cd transport
 
 # Instale as dependências
 composer install
 
-# Copie o arquivo .env de exemplo e configure suas variáveis
+# Copie o arquivo .env de exemplo
 cp .env.example .env
 
-# Gere a chave da aplicação
+# Gere a key da aplicação
 php artisan key:generate
 
-# Configure o banco de dados no .env e rode as migrations
+# Configure o banco de dados no .env e execute as migrations
 php artisan migrate
 
-# Rode o servidor local
+# Inicie o servidor
 php artisan serve
