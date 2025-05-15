@@ -2,15 +2,14 @@
 
 # Projeto
 
-Este projeto é um sistema de gestão de chamados desenvolvido utilizando o framework Laravel, com integração do Filament para a criação de painéis administrativos. Ele permite o registro, acompanhamento e gerenciamento de chamados de suporte técnico, facilitando a comunicação entre clientes e a equipe de suporte.
-
+Este projeto é um sistema de gestão de fretes desenvolvido utilizando o framework Laravel, com integração do Filament para a criação de painéis administrativos. Ele permite o registro, acompanhamento e gerenciamento de fretes facilitando a comunicação.
 # Funcionalidades
 
-Registro de chamados com detalhes como título, descrição e prioridade.
+Registro de fretes com detalhes como título, descrição e prioridade.
 
-Acompanhamento do status dos chamados (aberto, em andamento, resolvido).
+Acompanhamento do status dos fretes (em trânsito, saiu para entrega, entregue).
 
-Atribuição de chamados a agentes específicos.
+Atribuição de fretes a agentes específicos.
 
 Interface administrativa intuitiva com Filament.
 
