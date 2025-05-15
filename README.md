@@ -24,7 +24,7 @@ Autenticação e gerenciamento de usuários.
 
 [![Ver vídeo no YouTube](https://img.youtube.com/vi/1gKf0p0Tj3Q/0.jpg)](https://www.youtube.com/watch?v=1gKf0p0Tj3Q)
 
-💡 *Veja na prática como funciona o sistema completo de chamados com painel administrativo desenvolvido em Laravel + Filament!*
+💡 *Veja na prática como funciona o sistema completo de fretes com painel administrativo desenvolvido em Laravel + Filament!*
 
 
 # Autor
