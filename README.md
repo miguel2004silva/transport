@@ -1,52 +1,39 @@
-# Transport
+# WebSystem em PHP com Laravel
 
-Sistema de rastreamento de transportes desenvolvido com Laravel. O projeto permite o cadastro de pedidos com código de rastreio e consulta automática de status via integração com uma API externa, além de um painel administrativo com autenticação.
+# Projeto
 
-## 🔧 Tecnologias utilizadas
+Este projeto é um sistema de gestão de chamados desenvolvido utilizando o framework Laravel, com integração do Filament para a criação de painéis administrativos. Ele permite o registro, acompanhamento e gerenciamento de chamados de suporte técnico, facilitando a comunicação entre clientes e a equipe de suporte.
 
-<div style="display: flex; gap: 10px; align-items: center;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" alt="Laravel" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
-</div>
+# Funcionalidades
 
-- **PHP 8.x**
-- **Laravel 10**
-- **MySQL**
-- **Blade**
-- **Bootstrap**
-- **Git**
+Registro de chamados com detalhes como título, descrição e prioridade.
 
-## 📌 Funcionalidades
+Acompanhamento do status dos chamados (aberto, em andamento, resolvido).
 
-- Autenticação de administrador
-- Cadastro de pedidos com código de rastreio
-- Consulta de status via integração com API
-- Validação de dados no backend
-- Interface simples e funcional
+Atribuição de chamados a agentes específicos.
 
-## ▶️ Como executar
+Interface administrativa intuitiva com Filament.
 
-```bash
-# Clone o repositório
-git clone https://github.com/miguel2004silva/transport.git
+Autenticação e gerenciamento de usuários.
 
-# Acesse a pasta do projeto
-cd transport
 
-# Instale as dependências
-composer install
+# Tecnologias utilizadas
 
-# Copie o arquivo .env de exemplo
-cp .env.example .env
+[![My Skills](https://skillicons.dev/icons?i=php,mysql,vscode,html,css,laravel,postman)](https://skillicons.dev)<br><br>
 
-# Gere a key da aplicação
-php artisan key:generate
+## 📽️ Demonstração em Vídeo
 
-# Configure o banco de dados no .env e execute as migrations
-php artisan migrate
+[![Ver vídeo no YouTube](https://img.youtube.com/vi/1gKf0p0Tj3Q/0.jpg)](https://www.youtube.com/watch?v=1gKf0p0Tj3Q)
 
-# Inicie o servidor
-php artisan serve
+💡 *Veja na prática como funciona o sistema completo de chamados com painel administrativo desenvolvido em Laravel + Filament!*
+
+
+# Autor
+Miguel de Sá Silva
+
+Contato Profissional: 
+
+www.linkedin.com/in/miguel-de-sá-silva-1bb59a28b
+
+
+
